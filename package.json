@@ -1,0 +1,25 @@
+{
+  "name": "webpack-manage-domains",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "webpack --env=dev --mode=development",
+    "prod": "webpack --env=prod --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyasriday/webpack-manage-environment-domains.git"
+  },
+  "keywords": [],
+  "author": "Hridayesh Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vyasriday/webpack-manage-environment-domains/issues"
+  },
+  "homepage": "https://github.com/vyasriday/webpack-manage-environment-domains#readme",
+  "dependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
